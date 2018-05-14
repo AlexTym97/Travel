@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #80808038;
+}
+body .menu {
+    background: #F0005B;
+    color: #eee;
+}
+body .menu .menu_border_bottom {
+    background: #E00055;
+    border-bottom: 1px solid #D2004F;
+}
+body .menu .menu_border_bottom .container .row .social_sprites ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+body .menu .menu_border_bottom .container .row .social_sprites ul li {
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+}
+body .menu .menu_border_bottom .container .row .social_sprites ul li img {
+    width: 2em;
+}
+body .menu .menu_border_bottom .container .row .social_sprites :after {
+    content: "";
+    display: block;
+    clear: both;
+}
+body .main_menu .row .logo .hamberg {
+    float: left;
+    margin: 1.2em;
+    display: none;
+}
+body .main_menu .row .logo .hamberg div {
+    width: 2.5em;
+    height: .3em;
+    background: #fff;
+    border-radius: 10%;
+    margin: 0.3em;
+    cursor: pointer;
+}
+
+body .main_menu .row .logo .logo_name {
+    font-weight: 700;
+    font-size: 3em;
+}
+body .main_menu .row .ul ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+body .main_menu .row .ul ul li {
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 3em;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+@media  screen and (max-width: 750px) {
+    body .main_menu .row .ul ul li {
+        width: 100%;
+        text-align: left;
+    }
+    body .main_menu .row .ul {
+        display: none;
+    }
+    body .main_menu .row .logo .hamberg {
+        display: block;
+    }
+}
+body .main_menu .row :after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+@media  screen and (min-width: 750px) {
+    body .main_menu .row .ul {
+        display: block !important;
+    }
+}
+body .slider {
+    position: relative;
+    margin: 0 auto;
+
+}
+body .slider  {
+    display: block;
+    max-width: 100%;
+    opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    transition: opacity 1s;
+    cursor: hand;
+}
+body .slider:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    transition: opacity 1s;
+
+}
+body p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: large;
+}
+body .slider img{
+    display: block;
+    width: 100%;
+}
+body .about_us .container .row h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2em;
+}
+body .about_us .container .row p {
+    text-align: center;
+    line-height: 2em;
+}
+body .about_us .container .service_blocks .service_icon h4 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.2em;
+    padding: 1em 0;
+}
+body .about_us .container .service_blocks .service_icon img {
+    display: block;
+    width: 5em;
+    margin: 1em auto;
+}
+body .destinations {
+    padding-top: 3em;
+}
+body .destinations h3 {
+    font-weight: 800;
+    padding: 2em 0;
+}
+body .destinations .destination_blocks {
+    margin-bottom: 1em;
+}
+body .destinations .destination_blocks .desti_single .padding_block {
+    background: #F6F6F6;
+}
+body .destinations .destination_blocks .desti_single .padding_block .image {
+    height: 200px;
+}
+body .destinations .destination_blocks .desti_single .padding_block .image img {
+    height: inherit;
+    width: 100%;
+}
+body .destinations .destination_blocks .desti_single .padding_block .desti-h5 {
+    font-weight: 800;
+    font-size: 1.4em;
+    padding: .5em .7em;
+}
+body .destinations .destination_blocks .desti_single .padding_block .desi_dis {
+    padding: .5em .7em;
+}
+body .destinations .destination_blocks .desti_single .padding_block .desti_more {
+    padding: .5em .7em;
+    background: #F0F0F0;
+    border-top: 1px solid #DEDEDE;
+}
+body .destinations .destination_blocks .desti_single .padding_block .desti_more .price {
+    float: left;
+    padding: 0.4em;
+    font-weight: 800;
+}
+body .destinations .destination_blocks .desti_single .padding_block .desti_more .more {
+    float: right;
+    background: #F0005B;
+    border: 1px solid #D2004F;
+    padding: 0.4em;
+    border-radius: 3px;
+    color: #FFF;
+    font-weight: 800;
+    cursor: pointer;
+}
+body .destinations .destination_blocks .desti_single .padding_block :after {
+    content: "";
+    display: block;
+    clear: both;
+}
+body .testimnials {
+    background: #eee;
+}
+body .testimnials .comment_block {
+    padding: 1em;
+}
+body .testimnials .comment_block .comment_padding {
+    box-shadow: 1px 1px 2px 0 #C0C0C0;
+    padding: 1em;
+    background: #fff;
+}
+body .testimnials .comment_block .comment_padding .comment_avatar img {
+    height: 50px;
+    width: 50px;
+    margin: 1em;
+    display: block;
+    border-radius: 50%;
+    float: left;
+}
+body .testimnials .comment_block .comment_padding .comment {
+    padding: 1em;
+}
+body .testimnials .comment_block .comment_padding .comment :after {
+    content: "";
+    display: block;
+    clear: both;
+}
+body .testimnials .comment_block .comment_padding .comment .commname {
+    font-weight: 800;
+    float: right;
+}
+body footer {
+    background: #F0005B;
+    color: #eee;
+}
+body footer .footer_items {
+    padding: 1em;
+}
+body footer .footer_menu ul {
+    padding: 0;
+    margin: 0;
+}
+body footer .footer_menu ul li {
+    float: left;
+    padding: 1em;
+    list-style-type: none;
+}
